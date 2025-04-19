@@ -1,4 +1,4 @@
-#How to use the model
+## How to use the model
 Click on the google collab link we shared and copy it to your drive.
 Then run the first code block which will mount google drive
 then create a folder take3 in your /content/drive/MyDrive/ 

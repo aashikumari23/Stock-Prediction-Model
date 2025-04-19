@@ -1,3 +1,7 @@
+# 📈 Stock Prediction Using LSTM + GAT + DGLSTM
+
+This repository contains the implementation of a hybrid deep learning pipeline that leverages **LSTM**, **DGLSTM-based dynamic graph construction**, and **Graph Attention Networks (GAT)** to predict stock performance and rank the most profitable stocks using **Top-K evaluation metrics**.
+
 ## How to use the model
 Click on the google collab link we shared and copy it to your drive.
 Then run the first code block which will mount google drive
@@ -5,10 +9,6 @@ then create a folder take3 in your /content/drive/MyDrive/
 then also create a folder inside take3/DGLSTM_outputs/
 and then upload the files we shared ind_nifty500list_filtered_final.csv and aggregated_sheet.csv in take3 folder too. Then run the next code blocks from top to bottom in sequence and you wont have any problems.
 If any problems contact 8660041473
-
-# 📈 Stock Prediction Using LSTM + GAT + DGLSTM
-
-This repository contains the implementation of a hybrid deep learning pipeline that leverages **LSTM**, **DGLSTM-based dynamic graph construction**, and **Graph Attention Networks (GAT)** to predict stock performance and rank the most profitable stocks using **Top-K evaluation metrics**.
 
 ## 🚀 Overview
 

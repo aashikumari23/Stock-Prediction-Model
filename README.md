@@ -2,13 +2,6 @@
 
 This repository contains the implementation of a hybrid deep learning pipeline that leverages **LSTM**, **DGLSTM-based dynamic graph construction**, and **Graph Attention Networks (GAT)** to predict stock performance and rank the most profitable stocks using **Top-K evaluation metrics**.
 
-## How to use the model
-- Click on the google collab link we shared and copy it to your drive.
-- Run the first code block which will mount google drive
-- Create a folder take3 in your /content/drive/MyDrive/ 
-- Create a folder inside take3/DGLSTM_outputs/
-- Upload the files we shared ind_nifty500list_filtered_final.csv and aggregated_sheet.csv in take3 folder too. Then run the next code blocks from top to bottom in sequence and you wont have any problems.
-
 ## 🚀 Overview
 
 The project aims to predict which stocks are most likely to be profitable in the next time step, using:
@@ -16,7 +9,6 @@ The project aims to predict which stocks are most likely to be profitable in the
 - **LSTM**: For learning temporal patterns from historical stock features.
 - **DGLSTM**: For generating dynamic graph adjacency matrices based on LSTM embeddings.
 - **GAT**: For capturing inter-stock relationships and enhancing embeddings through attention.
-- **Top-K Evaluation**: For ranking stocks by predicted returns and comparing with actual outcomes.
 
 ---
 
@@ -39,7 +31,7 @@ The project aims to predict which stocks are most likely to be profitable in the
 - Best model checkpoint is saved based on validation loss.
 - Final evaluation is conducted on the test set.
 
-### 5. **Top-K Evaluation**
+### 5. **Evaluation**
 Evaluation metrics:
 - **Accuracy**: % of Top-K predicted stocks labeled as profitable.
 - **Precision**: Overlap between Top-K predicted vs Top-K actual returns.
